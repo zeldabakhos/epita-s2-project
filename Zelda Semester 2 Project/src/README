@@ -1,0 +1,8 @@
+---
+Add the src folder to htdocs in XAMPP.
+
+Download the folder "admin.sql "and add it to the database on phpmyadmin, it has the credentials of the default login page.
+ 
+username: admin@admin.com
+password: password
+

@@ -1,0 +1,18 @@
+
+.header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e3e6f0;
+    padding: 16px;
+  }
+  .table-responsive {
+    margin-top: 20px;
+  }
+  .table-title {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  .last-update {
+    font-size: 0.8em;
+    text-align: right;
+    margin-top: 20px;
+  }

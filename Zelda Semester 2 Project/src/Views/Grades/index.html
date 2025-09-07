@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grades</title>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="header text-center" id="header">
+    <h1>Grades</h1>
+  </div>
+  
+  <h2 class="table-title" id="table-title">Students final grades per course</h2>
+  <div class="table-responsive" id="grades-table">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">id</th>
+          <th scope="col">email</th>
+          <th scope="col">f.name</th>
+          <th scope="col">l.name</th>
+          <th scope="col">course</th>
+          <th scope="col">grade (/20)</th>
+        </tr>
+      </thead>
+      <tbody id="grades-table-body">
+      </tbody>
+    </table>
+  </div>
+  
+  <div class="last-update" id="last-update">
+    <p>Website last generation: 10th January 2023</p>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>
